@@ -1,0 +1,31 @@
+.header{
+    padding: 40px 0;
+    border-bottom: 1px solid #0000001A;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav{
+    display: flex;
+    gap: 60px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header_nav a{
+    transition: .8s all;
+}
+
+.header_nav a:hover{
+    color: red;
+    transform: scale(1.2);
+}
+
+li{
+    list-style: none;
+}
+

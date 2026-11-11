@@ -1,0 +1,14 @@
+.post {
+  text-align: center;
+  padding: 40px 20px;
+
+  h1 { font-size: 48px; font-weight: 600; letter-spacing: -0.04em; }
+
+  &__author {
+    display: flex; justify-content: center; align-items: center; gap: 12px; margin: 24px 0;
+    img { width: 32px; height: 32px; border-radius: 50%; }
+    span { font-size: 12px; color: #777; padding-left: 12px; border-left: 1px solid #e7e7e7; }
+  }
+
+  &__lead { max-width: 760px; margin: 0 auto; font-size: 13px; color: #666; }
+}
